@@ -1,7 +1,7 @@
 orbs:
    react: "thefrontside/react@dev:alpha"
- version: 2.1
- workflows:
+version: 2.1
+workflows:
    push:
      jobs:
        - react/install
