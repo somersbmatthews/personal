@@ -1,6 +1,7 @@
 import React from 'react'
 import StatelessComponent from "../higher_order_components/StatelessComponent"
 import NavBarItem from './NavBarItem'
+import shortid from 'shortid'
 
 
 
@@ -16,7 +17,7 @@ const NavBar = (props) => {
    let JSXListOfNavBarItems =
       NavBarItemsList.map((item) => {
          return(
-            <span>{item}</span>
+            <span key={shortid.generate()}>{item}</span>
          )
       })
       
