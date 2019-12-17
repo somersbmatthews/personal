@@ -15,7 +15,7 @@ const NavBar = (props) => {
    ]
 
    let JSXListOfNavBarItems =
-      NavBarItemsList.map((item) => {
+      NavBarItemsList.map((item, index) => {
          return(
             <span key={index}>{item}</span>
          )
