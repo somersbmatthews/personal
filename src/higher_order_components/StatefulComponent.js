@@ -1,6 +1,6 @@
 import React from 'react';
 
-const statefulComponent = (props) => (
+const StatefulComponent = (props) => (
     <div className={props.classes}>
         {props.children}
     </div>
@@ -8,4 +8,4 @@ const statefulComponent = (props) => (
 
 )
 
-export default statefulComponent;
+export default StatefulComponent;
