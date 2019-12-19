@@ -1,7 +1,6 @@
 import React from 'react'
 import StatelessComponent from "../higher_order_components/StatelessComponent"
 import NavBarItem from './NavBarItem'
-import shortid from 'shortid'
 
 
 
