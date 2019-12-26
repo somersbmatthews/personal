@@ -1,12 +1,12 @@
 import React from 'react';
 
-import StatelessComponent from '../higher_order_components/StatelessComponent'
+import StatelessComponent from '../hoc/StatelessComponent'
 
-import styles from "./NavBarItem.css"
+import classes from "./NavBarItem.css"
 const NavBarItem = (props) => {
    return (
       <StatelessComponent>
-         <span className={styles.NavBarItem}></span>
+         <span className={classes.NavBarItem}></span>
       </StatelessComponent>
    )
 }
