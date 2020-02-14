@@ -8,7 +8,7 @@ import NavBar from "./NavBar"
 
 const LandingPage = () => {
    return (
-      <StatelessComponent>
+      <StatelessComponent className={"background"}>
          <NavBar />
          <div className={classes.LandingPageText}>Blog</div>
          <div className={classes.LandingPageText}>Contact</div>
