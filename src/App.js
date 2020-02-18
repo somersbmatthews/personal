@@ -17,7 +17,7 @@ class App extends React.Component {
       <Switch>
         <Route path="/SendEmail" component={SendEmail} />
         <Route path="/" exact component={LandingPage} />
-        <Redirect path="/" />
+        <Redirect to="/" />
       </Switch>
     )
       return (

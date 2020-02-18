@@ -4,16 +4,22 @@ import StatelessComponent from '../hoc/StatelessComponent'
 
 import classes from "./LandingPage.css"
 
+import water from "../water.jpg"
+
 import NavBar from "./NavBar"
 
 const LandingPage = () => {
    return (
-      <StatelessComponent className={"background"}>
-         <NavBar />
-         <div className={classes.LandingPageText}>Blog</div>
-         <div className={classes.LandingPageText}>Contact</div>
-         <div className={classes.LandingPageText}>Projects</div>
-         <div className={classes.LandingPageText}>GitHub</div>
+      <StatelessComponent>
+         <div className={classes.lpbackground} src={water}>
+            <div className={classes.water}>
+               <NavBar />
+               <div className={classes.LandingPageText}>Blog</div>
+               <div className={classes.LandingPageText}>Contact</div>
+               <div className={classes.LandingPageText}>Projects</div>
+               <div className={classes.LandingPageText}>GitHub</div>
+            </div>
+         </div>
       </StatelessComponent>
    )
 
