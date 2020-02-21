@@ -14,6 +14,11 @@ const LandingPage = () => {
          <div className={classes.lpbackground} src={water}>
             <div className={classes.water}>
                <NavBar />
+               Somers Baucum Matthews
+               Programmer
+               Cell Biologist 
+               Pianist
+               Swimmer
                <div className={classes.LandingPageText}>Blog</div>
                <div className={classes.LandingPageText}>Contact</div>
                <div className={classes.LandingPageText}>Projects</div>
