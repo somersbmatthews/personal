@@ -4,7 +4,7 @@ import classes from './About.css'
 
 const About = () => {
    return (
-      <div></div>
+      <div>Email: somersbmatthews@gmail.com</div>
    )
 }
 
