@@ -9,6 +9,7 @@ const Projects = () => {
       <div>Instacook</div>
       <div>Jigsaw Party</div>
       <div>Smorgasbord</div>
+      <div>Gander</div>
    )
 }
 
