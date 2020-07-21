@@ -5,11 +5,13 @@ import classes from 'Projects.css'
 
 const Projects = () => {
    return (
+      <div>
       <div>Kaon</div>
       <div>Instacook</div>
       <div>Jigsaw Party</div>
       <div>Smorgasbord</div>
       <div>Gander</div>
+      </div>
    )
 }
 
